@@ -1,6 +1,6 @@
 # EVOModScan
 
-Strumento **Modbus RTU / TCP** di **Evologic** per test, messa in servizio e diagnostica,
+Strumento **Modbus RTU / TCP** di **Evologic** per test, messa in servizio, diagnostica e registrazione dati,
 utilizzabile sia come **Master** sia come **Slave**.
 
 ## ⬇ Download
@@ -25,6 +25,10 @@ file `EVOModScan.settings.json` accanto all'eseguibile.
 - **Tipi di dato**: BOOL, INT16/UINT16, INT32/UINT32, INT64/UINT64, FLOAT32 (REAL),
   FLOAT64 (LREAL), STRING ASCII; ordine byte AB CD / CD AB / BA DC / DC BA; visualizzazione
   decimale, esadecimale, binaria o ASCII.
+- **Logger** (dalla 1.1.0): tag con nome simbolico, unità, commento, scala/offset e deadband sui
+  registri Modbus, registrati su uno storico locale (`EVOModScan.history.db` accanto all'exe), con
+  grafico di trend ed export CSV pronto per Excel. Le configurazioni dei tag si salvano e si
+  ricaricano con un nome (`*.evolog.json`).
 - **Diagnostica**: tutti i frame TX/RX in esadecimale, errori e eccezioni Modbus con descrizione,
   log copiabile e salvabile.
 - **Configurazioni** salvabili e ricaricabili (`*.evoscan.json`), una per impianto.
