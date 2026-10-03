@@ -7,6 +7,9 @@ utilizzabile sia come **Master** sia come **Slave**.
 
 **[Scarica l'ultima versione di EVOModScan.exe](https://github.com/ModeMacs/EVOModScan-download/releases/latest/download/EVOModScan.exe)**
 
+**[Guida alla prova in loopback (PDF)](https://github.com/ModeMacs/EVOModScan-download/releases/latest/download/EVOModScan_Prova_loopback.pdf)**: come provare Master, Slave e Logger su un solo PC senza hardware, con il file di configurazione
+[Prova_loopback.evoscan.json](https://github.com/ModeMacs/EVOModScan-download/releases/latest/download/Prova_loopback.evoscan.json) che usa.
+
 Elenco di tutte le versioni: [Releases](https://github.com/ModeMacs/EVOModScan-download/releases)
 
 È un **unico eseguibile portable**: niente installazione, basta copiarlo e avviarlo su qualsiasi
