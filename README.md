@@ -31,7 +31,9 @@ file `EVOModScan.settings.json` accanto all'eseguibile.
 - **Logger** (dalla 1.1.0): tag con nome simbolico, unità, commento, scala/offset e deadband sui
   registri Modbus, registrati su uno storico locale (`EVOModScan.history.db` accanto all'exe), con
   grafico di trend ed export CSV pronto per Excel. Le configurazioni dei tag si salvano e si
-  ricaricano con un nome (`*.evolog.json`).
+  ricaricano con un nome (`*.evolog.json`). Dalla 1.2.0 si sceglie la **sorgente**: *Master* registra
+  un dispositivo slave interrogato sul bus, *Slave* registra ciò che un master esterno (PLC, SCADA)
+  scrive in EVOModScan.
 - **Diagnostica**: tutti i frame TX/RX in esadecimale, errori e eccezioni Modbus con descrizione,
   log copiabile e salvabile.
 - **Configurazioni** salvabili e ricaricabili (`*.evoscan.json`), una per impianto.
